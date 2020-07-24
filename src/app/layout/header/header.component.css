@@ -1,0 +1,34 @@
+.spacer{
+    flex: 1 1 auto;
+}
+*:focus {
+    outline: none;
+}
+.large-text{
+    font-size: 18px;
+}
+
+.covid-disclimar{
+    background-color: orange;
+    height:40px;
+    line-height: 1.8;
+}
+
+.mat-toolbar.mat-primary {
+    background: transparent;
+    color: transparent;
+}
+
+.navigation-font{
+    color: orange;
+}
+
+.largeButton{
+    font-size: 18px;
+}
+
+.main-logo{
+    cursor: pointer;
+}
+
+

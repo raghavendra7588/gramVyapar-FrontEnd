@@ -1,0 +1,13 @@
+.footer{
+    height: 160px;
+    background-color: orange;
+}
+h2{
+    font-size: 18px;
+    line-height: 4.8;
+    margin-left: 70px;
+}
+a{
+    font-size: 25px;
+    cursor: pointer;
+}

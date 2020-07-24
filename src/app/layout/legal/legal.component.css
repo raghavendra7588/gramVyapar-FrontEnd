@@ -1,0 +1,14 @@
+p{
+    font-size: 18px;
+    font-family: 'Poppins', arial, sans-serif;
+    color:#909090;
+}
+.container{
+    min-width: width auto;
+    max-width: 90%;
+}
+
+.row{
+    word-wrap: break-word;
+    line-height: 1.6;
+}

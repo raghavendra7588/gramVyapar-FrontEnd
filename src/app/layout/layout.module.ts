@@ -1,15 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { LayoutModule } from './layout/layout.module';
-
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
+import { FooterComponent } from './footer/footer.component';
+import { LegalComponent } from './legal/legal.component';
 
 
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -23,33 +17,25 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatExpansionModule } from '@angular/material/expansion';
-
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PhotoGalleryComponent],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    LayoutModule,
-    FormsModule,
-    HttpClientModule,
-    ReactiveFormsModule,
+    CommonModule,
     MatFormFieldModule,
     MatToolbarModule,
+    MatButtonModule,
     MatSelectModule,
     MatIconModule,
     MatTooltipModule,
-    MatInputModule,
     MatTableModule,
-    MatCardModule,
+    MatInputModule,
     MatMenuModule,
-    MatExpansionModule
+    MatMenuModule,
+    MatExpansionModule,
+    MatCardModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PhotoGalleryComponent]
 })
-export class AppModule { }
+export class LayoutModule { }

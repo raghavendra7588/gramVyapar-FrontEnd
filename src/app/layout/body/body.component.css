@@ -1,0 +1,276 @@
+p{
+    font-family: 'Poppins', arial, sans-serif;
+}
+.poppins-family
+{
+    line-height: 1.8;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size:18px;
+}
+
+.main-information{
+    background-color: orange;
+    overflow-wrap: break-word;
+}
+.italic-font{
+    font-style: italic;
+}
+
+.customDiv{
+    min-height: 787px;
+    /* border:2px solid red; */
+}
+ul{
+    font-family: 'Poppins', arial, sans-serif;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+.container-80{
+    max-width:1400px; 
+}
+
+.no-border{
+    border: none;
+}
+
+.emailLink{
+ color: orange;
+ font-size: 18px;
+}
+
+.email-p{
+    font-size: 18px;
+    color:#909090;
+}
+
+
+.emailLink:hover{
+ color: orange;
+}
+
+#social {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  .smGlobalBtn { /* global button class */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+  
+  /* facebook button class*/
+  .facebookBtn{
+      background: #4060A5;
+  }
+  
+  .facebookBtn:before{ /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a"; /* add facebook icon */
+  }
+  
+  .facebookBtn:hover{
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5; /* change the border color on mouse hover */
+  }
+  
+  /* twitter button class*/
+  .twitterBtn{
+      background: #00ABE3;
+  }
+  
+  .twitterBtn:before{
+        font-family: "FontAwesome";
+        content: "\f099"; /* add twitter icon */
+        
+  }
+  
+  .twitterBtn:hover{
+        color: #00ABE3;
+        background: #fff;
+        border-color: #00ABE3;
+  }
+  
+  /* google plus button class*/
+  .googleplusBtn{
+      background: #e64522;
+  }
+  
+  .googleplusBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0d5"; /* add googleplus icon */
+  }
+  
+  .googleplusBtn:hover{
+        color: #e64522;
+        background: #fff;
+        border-color: #e64522;
+  }
+  
+  /* linkedin button class*/
+  .linkedinBtn{
+      background: #0094BC;
+  }
+  
+  .linkedinBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0e1"; /* add linkedin icon */
+  }
+  
+  .linkedinBtn:hover{
+        color: #0094BC;
+        background: #fff;
+        border-color: #0094BC;
+  }
+  
+  /* pinterest button class*/
+  .pinterestBtn{
+      background: #cb2027;
+  }
+  
+  .pinterestBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0d2"; /* add pinterest icon */
+  }
+  
+  .pinterestBtn:hover{
+        color: #cb2027;
+        background: #fff;
+        border-color: #cb2027;
+  }
+  
+  /* tumblr button class*/
+  .tumblrBtn{
+      background: #3a5876;
+  }
+  
+  .tumblrBtn:before{
+        font-family: "FontAwesome";
+        content: "\f173"; /* add tumblr icon */
+  }
+  
+  .tumblrBtn:hover{
+        color: #3a5876;
+        background: #fff;
+        border-color: #3a5876;
+  }
+  
+  /* rss button class*/
+  .rssBtn{
+      background: #e88845;
+  }
+  
+  .rssBtn:before{
+        font-family: "FontAwesome";
+        content: "\f09e"; /* add rss icon */
+  }
+  
+  .rssBtn:hover{
+        color: #e88845;
+        background: #fff;
+        border-color: #e88845;
+  }
+  
+  .copyRightStatement{
+      line-height: 1.8;
+  }
+  
+  li{
+    word-wrap: break-word;
+    font-family: 'Poppins', arial, sans-serif;
+    color:#909090;
+    font-size: 18px;
+    letter-spacing: unset;
+    text-align: left;
+  }
+
+  .custom-h1{
+    word-wrap: break-word;
+    font-family: 'Poppins', arial, sans-serif;
+    color:#909090;
+    font-size: 24px;
+  }
+
+  .custom-p{
+    word-wrap: break-word;
+    font-family: 'Poppins', arial, sans-serif;
+    color:#909090;
+    font-size: 18px;
+    line-height: 1.8; 
+  }
+
+  .btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:20%;
+    background-color: black;
+    color:white;
+}
+.responsive-width {
+    font-size: 3vw;
+}
+.large-button{
+    background-color: black;
+    color:white;
+}
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+   }
+   h1:before,
+   h1:after {
+    background-color: #333;
+    content: " ";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 3px;
+   }
+   h1:before {
+    right: 4.3em;
+    margin-left: -50%;
+   }
+   h1:after {
+    left: 4.3em;
+    margin-right: -50%;
+   }
+
+.button {
+    background-color: #696969;     
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {width: 250px;}
+
+  .customImage{
+      height: 300px !important;
+      width: 270px !important;
+  }
