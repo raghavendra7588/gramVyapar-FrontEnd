@@ -17,10 +17,10 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
+
 
 @NgModule({
-  declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PhotoGalleryComponent],
+  declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent],
   imports: [
     CommonModule,
     MatFormFieldModule,
@@ -36,6 +36,6 @@ import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
     MatExpansionModule,
     MatCardModule
   ],
-  exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PhotoGalleryComponent]
+  exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent]
 })
 export class LayoutModule { }
