@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
+import { MatDialog } from '@angular/material/dialog';
+import { LegalComponent } from '../legal/legal.component';
 
 @Component({
   selector: 'app-footer',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(public router:Router) { }
+  constructor(public router:Router,public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
@@ -22,6 +23,7 @@ export class FooterComponent implements OnInit {
 
   navigateToLegalPage(){
     this.router.navigate(['/legal']);
+   
   }
 
 }

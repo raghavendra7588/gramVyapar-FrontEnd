@@ -11,6 +11,7 @@ p{
 .main-information{
     background-color: orange;
     overflow-wrap: break-word;
+    height:220px;
 }
 .italic-font{
     font-style: italic;
@@ -194,7 +195,7 @@ ul{
   li{
     word-wrap: break-word;
     font-family: 'Poppins', arial, sans-serif;
-    color:#909090;
+    color: #484848;
     font-size: 18px;
     letter-spacing: unset;
     text-align: left;
@@ -231,26 +232,26 @@ ul{
     color:white;
 }
 
-h1 {
+h2 {
     overflow: hidden;
     text-align: center;
    }
-   h1:before,
-   h1:after {
+   h2:before,
+   h2:after {
     background-color: #333;
     content: " ";
     display: inline-block;
-    height: 1px;
+    height: 0.5px;
     position: relative;
     vertical-align: middle;
     width: 50%;
     font-size: 3px;
    }
-   h1:before {
+   h2:before {
     right: 4.3em;
     margin-left: -50%;
    }
-   h1:after {
+   h2:after {
     left: 4.3em;
     margin-right: -50%;
    }
@@ -270,7 +271,22 @@ h1 {
 
   .button1 {width: 250px;}
 
-  .customImage{
-      height: 300px !important;
-      width: 270px !important;
+  .why-is-logo{
+    height: 250px !important;
+    width: 270px !important;
   }
+  .what-is-logo{
+    height: 250px !important;
+    width: 250px !important;
+    -ms-transform: rotate(15deg); /* IE 9 */
+    transform: rotate(15deg);
+  }
+
+  .decorated-text{
+      font-size: 24px;
+     color : orange;   
+}
+
+.margin-top{
+    margin-top: 70px;
+}

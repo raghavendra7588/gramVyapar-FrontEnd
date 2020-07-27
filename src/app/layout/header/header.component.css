@@ -11,12 +11,16 @@
 .covid-disclimar{
     background-color: orange;
     height:40px;
-    line-height: 1.8;
+    line-height: 2.2;
 }
 
 .mat-toolbar.mat-primary {
-    background: transparent;
-    color: transparent;
+    background: white;
+    color: white;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    
 }
 
 .navigation-font{
@@ -29,6 +33,12 @@
 
 .main-logo{
     cursor: pointer;
+    margin-left: 130px;
 }
 
-
+.position-fixed{
+    position: fixed
+}
+ /* .main-div{
+    margin-top: 150px !important;
+}  */

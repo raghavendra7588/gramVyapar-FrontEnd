@@ -15,4 +15,10 @@ export class HeaderComponent implements OnInit {
   navigateToHome() {
     this.router.navigate(['/home']);
   }
+
+  navigateToLogin(){
+    this.router.navigate(['http://203.112.144.38/Admin/login']);
+  }
 }
+
+

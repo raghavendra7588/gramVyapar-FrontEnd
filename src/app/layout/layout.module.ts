@@ -17,10 +17,13 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatDialogModule } from '@angular/material/dialog';
 
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
-  declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent],
+  declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PageNotFoundComponent],
   imports: [
     CommonModule,
     MatFormFieldModule,
@@ -34,8 +37,11 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatMenuModule,
     MatMenuModule,
     MatExpansionModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule,
+    MatCarouselModule.forRoot()
   ],
-  exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent]
+  entryComponents:[LegalComponent],
+  exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PageNotFoundComponent]
 })
 export class LayoutModule { }

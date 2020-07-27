@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BodyComponent } from './layout/body/body.component';
 import { LegalComponent } from './layout/legal/legal.component';
+import { PageNotFoundComponent } from './layout/page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,8 @@ const routes: Routes = [
   },
   {
     path: 'legal', component: LegalComponent
+  }, {
+    path: '**', component: PageNotFoundComponent
   }
 ];
 

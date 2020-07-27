@@ -1,5 +1,5 @@
 p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', arial, sans-serif;
     color:#909090;
 }
@@ -12,3 +12,27 @@ p{
     word-wrap: break-word;
     line-height: 1.6;
 }
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+   }
+   h2:before,
+   h2:after {
+    background-color: #333;
+    content: " ";
+    display: inline-block;
+    height: 0.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 3px;
+   }
+   h2:before {
+    right: 4.3em;
+    margin-left: -50%;
+   }
+   h2:after {
+    left: 4.3em;
+    margin-right: -50%;
+   }
