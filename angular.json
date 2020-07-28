@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "gramVyapar"
+  "defaultProject": "gramVyapar",
+  "cli": {
+    "analytics": false
+  }
 }
