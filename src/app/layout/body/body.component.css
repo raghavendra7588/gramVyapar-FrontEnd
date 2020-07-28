@@ -5,13 +5,13 @@ p{
 {
     line-height: 1.8;
     font-family: 'Poppins', arial, sans-serif;
-    font-size:18px;
+    /* font-size:18px; */
 }
 
 .main-information{
     background-color: orange;
     overflow-wrap: break-word;
-    height:220px;
+    height:240px;
 }
 .italic-font{
     font-style: italic;
@@ -205,14 +205,14 @@ ul{
     word-wrap: break-word;
     font-family: 'Poppins', arial, sans-serif;
     color:#909090;
-    font-size: 24px;
+    /* font-size: 24px; */
   }
 
   .custom-p{
     word-wrap: break-word;
     font-family: 'Poppins', arial, sans-serif;
     color:#909090;
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 1.8; 
   }
 
@@ -289,4 +289,9 @@ h2 {
 
 .margin-top{
     margin-top: 70px;
+}
+
+
+::ng-deep .mat-dialog-container {
+    overflow-x: hidden !important;
 }

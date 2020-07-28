@@ -22,6 +22,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+
 @NgModule({
   declarations: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PageNotFoundComponent],
   imports: [
@@ -41,7 +42,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatDialogModule,
     MatCarouselModule.forRoot()
   ],
-  entryComponents:[LegalComponent],
+  entryComponents:[LegalComponent,HeaderComponent],
   exports: [HeaderComponent, BodyComponent, FooterComponent, LegalComponent, PageNotFoundComponent]
 })
-export class LayoutModule { }
+export class CustomLayoutModule { }
