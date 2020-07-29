@@ -4,6 +4,13 @@ import { BodyComponent } from './layout/body/body.component';
 import { LegalComponent } from './layout/legal/legal.component';
 import { PageNotFoundComponent } from './layout/page-not-found/page-not-found.component';
 
+// @NgModule({
+//   imports: [RouterModule.forRoot(routes,{
+//     scrollPositionRestoration: 'top'
+//   })],
+//   exports: [RouterModule]
+// })
+
 
 const routes: Routes = [
   {

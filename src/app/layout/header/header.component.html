@@ -1,5 +1,5 @@
 
-<div class="main-div">
+<!-- <div class="main-div col-12 col-md-12 col-sm-12 container-fluid"> -->
     <mat-toolbar color="primary" class="position-fixed">
         <img src="/assets/images/mainLogo.PNG" class="img-responsive main-logo" height="70px" width="300px">
         <div class="spacer"></div>
@@ -10,15 +10,8 @@
         </button>
         <mat-menu #menu="matMenu" [overlapTrigger]="false" class="mt-3">
             <span (mouseleave)="menuTrigger.closeMenu()">
-                <button mat-menu-item class="largeButton">
-                    <span class="navigation-font largeButton">
-                        <a href="http://203.112.144.38/Admin/login" target="_blank">Log In</a>
-                    </span>
-                </button>
-                <button mat-menu-item class="largeButton">
-                    <span class="navigation-font largeButton">
-                        <a href="http://203.112.144.38/Admin/signup" target="_blank">Sign Up</a>
-                    </span>
+                <button mat-menu-item class="largeButton"><span class="largeButton"><a href="http://203.112.144.38/Admin/login" class="navigation-font">Log In</a>
+ </span>
                 </button>
                 
             </span>
@@ -29,7 +22,7 @@
             <span class="navigation-font">Download App</span>
         </button>
         <mat-menu #inventory="matMenu" class="mt-3" [overlapTrigger]="false">
-            <span (click)="inventoryTrigger.closeMenu()">
+            <span (mouseleave)="inventoryTrigger.closeMenu()">
                 <button mat-menu-item class="largeButton">
                     <span class="navigation-font largeButton">
                         <a href="https://play.google.com/store/apps/details?id=com.tslms.gramvyaparseller" target="_blank">Retailer App</a>
@@ -44,4 +37,4 @@
         </mat-menu>
     
     </mat-toolbar>
-</div>
+<!-- </div> -->
