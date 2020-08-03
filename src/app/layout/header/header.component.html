@@ -10,8 +10,16 @@
         </button>
         <mat-menu #menu="matMenu" [overlapTrigger]="false" class="mt-3">
             <span (mouseleave)="menuTrigger.closeMenu()">
-                <button mat-menu-item class="largeButton"><span class="largeButton"><a href="http://203.112.144.38/Admin/login" class="navigation-font">Log In</a>
- </span>
+                <button mat-menu-item class="largeButton"><span class="largeButton">
+                    <a href="http://203.112.144.38/Admin/login" target="_blank" class="navigation-font">Log In</a>
+                </span>
+                </button>
+                
+            </span>
+            <span (mouseleave)="menuTrigger.closeMenu()">
+                <button mat-menu-item class="largeButton"><span class="largeButton">
+                    <a href="http://203.112.144.38/Admin/signup" target="_blank" class="navigation-font">Sign Up</a>
+                </span>
                 </button>
                 
             </span>
