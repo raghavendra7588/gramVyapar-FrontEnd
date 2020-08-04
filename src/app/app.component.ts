@@ -10,13 +10,14 @@ import { Router, NavigationEnd } from '@angular/router';
 export class AppComponent implements OnInit {
   title = 'gramVyapar';
   public showContainer: boolean;
-
+  routerUrl: string;
   constructor(public router: Router) {
     router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
         window.scrollTo(0, 0);
       }
     });
+    this.routerUrl = router.url;
   }
 
 

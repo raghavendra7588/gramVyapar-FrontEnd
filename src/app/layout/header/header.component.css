@@ -15,8 +15,8 @@
 }
 
 .mat-toolbar.mat-primary {
-    /* background: white;
-    color: white; */
+    background: white;
+    color: white;
     top: 0;
     z-index: 1;
     right: 0 !important;

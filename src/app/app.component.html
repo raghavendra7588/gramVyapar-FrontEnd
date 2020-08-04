@@ -1,8 +1,13 @@
-<div class="sticky-top">
+<div *ngIf="router.url != '/legalDocument'" class="sticky-top">
     <app-header></app-header>
 </div>
-<div class="margin-top">
-    <router-outlet></router-outlet>
+<div *ngIf="router.url != '/legalDocument'" class="margin-top">
+    <router-outlet></router-outlet>    
+</div>
+<div *ngIf="router.url === '/legalDocument'">
+    <router-outlet></router-outlet>    
+</div>
+<div *ngIf="router.url != '/legalDocument'">
     <app-footer></app-footer>
 </div>
 
